@@ -1,0 +1,41 @@
+body{
+    background-color: #354259;
+    color: #CDC2AE;
+}
+.container{
+    border: 1px solid #7895B2;
+    height: 100vh;
+}
+
+#logout-container{
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+
+}
+
+#userImg{
+    height: 30px;
+    width: 30px;
+    /* margin-top: 00px; */
+
+}
+
+h2{
+    display: inline-block;
+    /* float: left; */
+    width: 270px;
+    margin-top: 20px;
+}
+
+a{
+    color: #CDC2AE;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+select{
+    background-color: #354259;
+    border: none;
+    color: #CDC2AE;
+}

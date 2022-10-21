@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Requestor Login</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/login-css.css">
+    <script defer src="../js/index.js"></script>
+</head>
+
+<body onload="init()">
+    <div class="container">
+        <h2>Travel Requestor Login</h2>
+        <div class="left-container">
+            <p>User name: </p>
+            <p>Password: </p>
+
+        </div>
+        <div class="right-container">
+            <img src="../images/userimg.svg" alt="" id="userImg">
+            <input type="text" id="username" name="username" placeholder="Enter user name" required
+                autocomplete="off"><br><span id="userError" class="errorClass"></span><br><br>
+            <img src="../images/password.svg" alt="" id="passImg">
+            <input type="password" id="password" placeholder="Enter password" name="password" required
+                autocomplete="off"><br><span id="passError" class="errorClass"></span><br><br>
+        </div>
+        <button class="btn btn-primary" onclick="login()">Log In</button>
+    </div>
+
+</body>
+
+</html>

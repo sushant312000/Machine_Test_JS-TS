@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User view</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/user-view.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Travel requestor</h2>
+        <div id="logout-container">
+            <button type="button" class="btn btn-dark">Logout</button>
+            <img src="../images/userimg.svg" alt="" id="userImg">
+        </div>
+        <hr>
+        <a href="./request-form.html">Form</a>&nbsp;
+        <select name="viewRequest" id="viewRequest">
+            <option value="View all" selected>View all</option>
+            <option value="critical" >Critical</option>
+            <option value="normal" >Normal</option>
+            <option value="reject" >Reject</option>
+        </select>
+        <hr>
+</body>
+
+</html>

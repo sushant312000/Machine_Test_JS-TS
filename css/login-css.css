@@ -1,0 +1,57 @@
+/* *{
+    border: 1px solid red;
+    margin: 2%;
+    padding: 2%;
+} */
+body{
+    background-color: #354259;
+    text-align: center;
+    color: #CDC2AE;
+}
+
+.container{
+    /* width: 80vw; */
+    /* margin-right:190px; */
+    margin-top: 70px;
+    /* text-decoration: underline; */
+    border:2px solid #7895B2;
+    height: 80vh;
+}
+form{
+    text-align: center;
+}
+
+.left-container{
+    float: left;
+    margin-left: 340px;
+    line-height: 60px;
+}
+
+.right-container{
+    float: right;
+    margin-right: 245px;
+    margin-top: 10px;
+}
+
+#username, #password{
+    border: 1px solid #CDC2AE;
+    border-radius: 5px;
+}
+
+#employeeType{
+    margin-left: 15px;
+}
+
+.btn{
+    margin-top: 160px;
+    margin-left: 40px;
+}
+
+#userImg, #passImg{
+    height: 20px;
+    width: 20px;
+}
+
+.errorClass{
+    color: red;
+}
